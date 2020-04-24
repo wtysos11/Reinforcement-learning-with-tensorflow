@@ -93,6 +93,10 @@ class Maze(tk.Tk, object):
         return self.canvas.coords(self.rect)
 
     def step(self, action):
+        '''
+        Q-Learning动作部分，接受epsilon-greedy策略得到的动作，返回状态s'，奖励函数r和一个布尔值done（判断是否结束）
+        动作包括上下左右四个方向
+        '''
         s = self.canvas.coords(self.rect)
         base_action = np.array([0, 0])
         if action == 0:   # up

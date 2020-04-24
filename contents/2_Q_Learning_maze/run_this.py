@@ -17,11 +17,20 @@ from RL_brain import QLearningTable
 
 
 def update():
+    '''
+    更新函数，被界面更新所调用。
+    '''
     for episode in range(100):
         # initial observation
         observation = env.reset()
 
         while True:
+            '''
+                单次循环的时候，
+                选择动作
+                执行Q-Learning步骤
+                更新
+            '''
             # fresh env
             env.render()
 
