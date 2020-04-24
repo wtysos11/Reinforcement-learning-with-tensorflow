@@ -7,6 +7,10 @@
 
 <br>
 
+# fork的寄语
+
+将会在对其进行自己的改装与实验，加上有一些注释，希望能帮助以后的自己更好地复习。
+
 # Reinforcement Learning Methods and Tutorials
 
 In these tutorials for reinforcement learning, it covers from the basic RL algorithms to advanced algorithms developed recent years.
